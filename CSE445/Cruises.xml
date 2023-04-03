@@ -1,0 +1,170 @@
+<Cruises xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Cruises.xsd">
+	<Cruise FoundedIn="1972">
+		<ParentCompany>Carnival Corporation</ParentCompany>
+		<Name>Carnival Conquest</Name>
+		<Reservation>
+			<Phone>1-800-CARNIVAL</Phone>
+			<Url>www.carnival.com</Url>
+		</Reservation>
+		<Headquarter Zip="33178">
+			<City>Miami</City>
+			<State>Florida</State>
+		</Headquarter>
+		<DeparturePorts>
+			<Port>Miami</Port>
+			<Port>Nassau</Port>
+		</DeparturePorts>
+	</Cruise>
+	<Cruise>
+		<ParentCompany>Carnival Corporation</ParentCompany>
+		<Name>Carnival Conquest</Name>
+		<Reservation>
+			<Phone>1-800-CARNIVAL</Phone>
+			<Url>www.carnival.com</Url>
+		</Reservation>
+		<Headquarter Zip="33178">
+			<City>Miami</City>
+			<State>Florida</State>
+		</Headquarter>
+		<DeparturePorts>
+			<Port>Miami</Port>
+			<Port>Half Moon Cay</Port>
+			<Port>Nassau</Port>
+		</DeparturePorts>
+	</Cruise>
+	<Cruise>
+		<ParentCompany>Carnival Corporation</ParentCompany>
+		<Name>Carnival Conquest</Name>
+		<Reservation>
+			<Phone>1-800-CARNIVAL</Phone>
+			<Url>www.carnival.com</Url>
+		</Reservation>
+		<Headquarter Zip="33178">
+			<City>Miami</City>
+			<State>Florida</State>
+		</Headquarter>
+		<DeparturePorts>
+			<Port>Miami</Port>
+			<Port>Nassau</Port>
+			<Port>Half Moon Cay</Port>
+		</DeparturePorts>
+	</Cruise>
+	<Cruise>
+		<ParentCompany>Carnival Corporation</ParentCompany>
+		<Name>Carnival Conquest</Name>
+		<Reservation>
+			<Phone>1-800-CARNIVAL</Phone>
+			<Url>www.carnival.com</Url>
+		</Reservation>
+		<Headquarter Zip="33178">
+			<City>Miami</City>
+			<State>Florida</State>
+		</Headquarter>
+		<DeparturePorts>
+			<Port>Miami</Port>
+			<Port>Princess Cays</Port>
+			<Port>Nassau</Port>
+		</DeparturePorts>
+	</Cruise>
+	<Cruise>
+		<ParentCompany>Carnival Corporation</ParentCompany>
+		<Name>Carnival Glory</Name>
+		<Reservation>
+			<Phone>1-800-CARNIVAL</Phone>
+			<Url>www.carnival.com</Url>
+		</Reservation>
+		<Headquarter Zip="32920">
+			<City>Port Canaveral</City>
+			<State>Florida</State>
+		</Headquarter>
+		<DeparturePorts>
+			<Port>Port Canaveral</Port>
+			<Port>Bimini</Port>
+		</DeparturePorts>
+	</Cruise>
+	<Cruise>
+		<ParentCompany>Carnival Corporation</ParentCompany>
+		<Name>Carnival Radiance</Name>
+		<Reservation>
+			<Phone>1-800-CARNIVAL</Phone>
+			<Url>www.carnival.com</Url>
+		</Reservation>
+		<Headquarter Zip="90802">
+			<City>Los Angeles</City>
+			<State>California</State>
+		</Headquarter>
+		<DeparturePorts>
+			<Port>Los Angeles</Port>
+			<Port>Catalina Island</Port>
+			<Port>Ensenada</Port>
+		</DeparturePorts>
+	</Cruise>
+	<Cruise>
+		<ParentCompany>Carnival Corporation</ParentCompany>
+		<Name>Carnival Conquest</Name>
+		<Reservation>
+			<Phone>1-800-CARNIVAL</Phone>
+			<Url>www.carnival.com</Url>
+		</Reservation>
+		<Headquarter Zip="33178">
+			<City>Miami</City>
+			<State>Florida</State>
+		</Headquarter>
+		<DeparturePorts>
+			<Port>Miami</Port>
+			<Port>Princess Cays</Port>
+			<Port>Nassau</Port>
+		</DeparturePorts>
+	</Cruise>
+	<Cruise>
+		<ParentCompany>Carnival Corporation</ParentCompany>
+		<Name>Carnival Conquest</Name>
+		<Reservation>
+			<Phone>1-800-CARNIVAL</Phone>
+			<Url>www.carnival.com</Url>
+		</Reservation>
+		<Headquarter Zip="33178">
+			<City>Miami</City>
+			<State>Florida</State>
+		</Headquarter>
+		<DeparturePorts>
+			<Port>Miami</Port>
+			<Port>Princess Cays</Port>
+			<Port>Nassau</Port>
+		</DeparturePorts>
+	</Cruise>
+	<Cruise>
+		<ParentCompany>Carnival Corporation</ParentCompany>
+		<Name>Carnival Glory</Name>
+		<Reservation>
+			<Phone>1-800-CARNIVAL</Phone>
+			<Url>www.carnival.com</Url>
+		</Reservation>
+		<Headquarter Zip="32920">
+			<City>Port Canaveral</City>
+			<State>Florida</State>
+		</Headquarter>
+		<DeparturePorts>
+			<Port>Port Canaveral</Port>
+			<Port>Nassau</Port>
+			<Port>Princess Cays</Port>
+		</DeparturePorts>
+	</Cruise>
+	<Cruise>
+		<ParentCompany>Carnival Corporation</ParentCompany>
+		<Name>Carnival Radiance</Name>
+		<Reservation>
+			<Phone>1-800-CARNIVAL</Phone>
+			<Url>www.carnival.com</Url>
+		</Reservation>
+		<Headquarter Zip="90802">
+			<City>Los Angeles</City>
+			<State>California</State>
+		</Headquarter>
+		<DeparturePorts>
+			<Port>Los Angeles</Port>
+			<Port>Ensenada</Port>
+		</DeparturePorts>
+	</Cruise>
+</Cruises>
