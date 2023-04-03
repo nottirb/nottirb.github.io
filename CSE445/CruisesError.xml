@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cruises>
+  <Cruise FoundedIn="1972">
+    <ParentCompany>Carnival Corporation</ParentCompany>
+    <Name>Carnival Cruise Line</Name>
+    <Reservation>
+      <Phone>1-800-CARNIVAL</Phone>
+      <Url>www.carnival.com
+    </Reservation>
+    <Headquarter Zip="33178">
+      <City>Miami</City>
+      <State>Florida</State>
+    </Headquarter>
+    <DeparturePorts>
+      <Port>Baltimore</Port>
+      <Port>Los Angeles</Port>
+    </DeparturePorts>
+  </Cruise>
+</Cruises>
