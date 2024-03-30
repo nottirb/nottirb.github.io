@@ -1,45 +1,120 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Britton</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"/>
-    </noscript>
-    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
-  </head>
-  <body id="top"><div class="site-wrapper">
-  <div class="site-wrapper-inner">
-    <div class="cover-container">
-      <div class="masthead clearfix">
-        <div class="inner">
-          <h3 class="masthead-brand">Britton</h3>
-          <nav class="nav nav-masthead">
-            <a class="nav-link nav-social" href="https://github.com/nottirb/" title="Github"><i class="fab fa-github" aria-hidden="true"></i></a>
-          </nav>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png">
+</head>
+
+<body>
+    <!--
+    <header>
+        <h1>Britton Fischer</h1>
+    </header>
+    <p>Software engineer, Mathematician, and Investor.</p>
+    -->
+    <header>
+        <div class="header-content">
+            <div class="header-text">
+            <h1>Britton Fischer</h1>
+            <p class="tagline">Software engineer, Mathematician, and Investor</p>
+            </div>
+            <img class="profile-picture" src="assets/pfp.gif" alt="Britton Fischer">
         </div>
-      </div>      
-      <div class="inner cover">
-        <h1 class="cover-heading">The adventure Begins</h1>
-        <p class="lead cover-copy">This website is under construction.</p>
-      </div>
-      <div class="mastfoot">
-        <div class="inner">
-          <p>&copy; 2021 Britton</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    <script src="scripts/jquery.slim.min.js?ver=1.2.0"></script>
-    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
-    <script src="scripts/main.js?ver=1.2.0"></script>
-  </body>
+    </header>
+    <p>
+        I have been programming for 11 years. I am researching Artificial Intelligence and attempting to trade
+        specific patterns in the financial markets.
+    </p>
+    <p>
+        I am currently invested entirely in High Tide Inc. (HITI), a Canadian Cannabis company.
+    </p>
+
+    <hr />
+
+    <h2>Work History</h2>
+    <ul class="project-list">
+        <li class="project-item">
+            <div class="project-content">
+                <a class="post-link" href="/">DIVOC Studios, LLC</a>
+                <div class="project-details">
+                    <span>Head of Engineering</span>
+                    <span>January 2018 - Present</span>
+                </div>
+                <p>
+                    Founded a software consulting firm servicing numerous clients with 10M+ MAU. We specialize in game development, but are slowly adding other development services.
+                </p>
+            </div>
+        </li>
+
+        <li class="project-item">
+            <div class="project-content">
+                <a class="post-link" href="https://paqt.chat/" target="_blank">Paqt (Startup)</a>
+                <div class="project-details">
+                    <span> Lead Student Software Engineer</span>
+                    <span> August 2023 - May 2024</span> 
+                </div>
+                <p>
+                    Led a team of 5 students at Arizona State University in collaboration with Paqt, a Startup working on a Legal Agreement Platform.
+                    Implemented OAuth2.0, Document templates, and Field (fillable) document components. Worked with PHP (Laravel), React (Next.js), PostgreSQL, and Docker. 
+                </p>
+            </div>
+        </li>
+
+        <li class="project-item">
+            <div class="project-content">
+                <a class="post-link" href="https://www.mayhem.security/" target="_blank">ForAllSecure, Inc.</a>
+                <div class="project-details">
+                    <span>Contract Cybersecurity Engineer</span>
+                    <span>April 2022 - July 2023</span>
+                </div>
+                <p>
+                    Implemented Fuzz Testing into the source code of companies like Roblox and Mozilla as part of ForAllSecure's Mayhem Heroes Program. Discovered 500+ CVEs (Vulnerabilities) and received over $100,000 in bug bounties. Worked with Rust, C++, Go, Docker, CI/CD pipelines and Mayhem. 
+                </p>
+            </div>
+        </li>
+    </ul>
+
+    <hr /><h2>Projects</h2>
+        <ul class="project-list">
+        <li class="project-item">
+            <div class="project-content">
+            <a class="post-link" href="/project1/" target="_blank">Geometry Dash</a>
+            <div class="project-details">
+                <span>10M+ Plays</span>
+                <span>1M+ MAU</span> 
+            </div>
+            <p>Developed and launched a Geometry Dash Clone (Game) in Roblox in just 36 hours. Peaked at 1M+ MAU for 2 consecutive months.</p>
+            </div>
+        </li>
+
+        <li class="project-item">
+            <div class="project-content">
+            <a class="post-link" href="https://github.com/dphfox/Fusion" target="_blank">Fusion</a>
+            <div class="project-details">
+                <span>500+ Stars</span>
+                <span>Open Source Software</span>
+            </div>
+            <p>Top Contributor on Fusion, a UI/State Library for Roblox. Improved internal algorithmic efficiency for compute-heavy tasks. Increased unit testing coverage and conducted code reviews. Achieved 300% faster adoption vs Roact/Rodux (Roblox's in-house UI/State Library). </p>
+            </div>
+        </li>
+    </ul>
+
+    <hr />
+
+    <footer>
+        <p>&copy; 2024 Britton Fischer. All rights reserved.</p>
+        <ul class="social-links">
+            <!-- <li><a href="https://twitter.com/nottirb_/" target="_blank">Twitter</a></li> -->
+            <li><a href="https://linkedin.com/in/brittonfischer/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/nottirb" target="_blank">GitHub</a></li>
+        </ul>
+    </footer>
+</body>
+
 </html>
