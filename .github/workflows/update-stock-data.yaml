@@ -21,7 +21,7 @@ jobs:
     - name: Fetch stock data
       run: |
         symbol=${{ github.event.inputs.symbol || 'HITI' }}
-        curl "https://api.twelvedata.com/time_series?apikey=${{ secrets.TWELVEDATA_API_KEY }}&interval=1week&symbol=$symbol&exchange=NASDAQ&format=JSON&outputsize=52" -o stock-data.json
+        curl "https://api.twelvedata.com/time_series?apikey=${{ secrets.TWELVEDATA_API_KEY }}&interval=1week&symbol=$symbol&exchange=NASDAQ&format=JSON&outputsize=52" -o assets/stock-data.json
 
     - name: Commit and push changes
       run: |

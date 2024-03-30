@@ -8,9 +8,12 @@
   --blue: #0181dd;
   --link: var(--blue);
   --green: #99ffdd;
+  --red: #ff6666;
   --link-hover: var(--green);
   --primary-color: #1EEBB0;
   --secondary-color: #919BA1;
+  --gain-color: var(--green);
+  --loss-color: var(--red);
 }
 
 body {
@@ -181,4 +184,16 @@ hr {
 footer {
   margin-top: 2rem;
   color: var(--mediumgray);
+}
+
+.investment-container {
+  margin-top: 0.5rem;
+}
+
+#overallEarnings.gain {
+  color: var(--gain-color);
+}
+
+#overallEarnings.loss {
+  color: var(--loss-color);
 }

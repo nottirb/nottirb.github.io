@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Britton</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -74,8 +75,10 @@
         </li>
     </ul>
 
-    <hr /><h2>Projects</h2>
-        <ul class="project-list">
+    <hr />
+    
+    <h2>Projects</h2>
+    <ul class="project-list">
         <li class="project-item">
             <div class="project-content">
                 <a class="post-link" href="/project1/" target="_blank">Geometry Dash</a>
@@ -101,6 +104,27 @@
 
     <hr />
 
+    <h2>Investments</h2>
+    <ul class="project-list">
+        <li class="project-item">
+            <div class="project-content">
+                <a class="post-link" href="https:/hightideinc.com/" target="_blank">High Tide, Inc.</a>
+                <div class="project-details">
+                    <span>Cost: $1.60</span>
+                    <span id="currentPrice">Price: $1.60</span>
+                    <span id="overallEarnings">Gain: 0%</span>
+                </div>
+                <p>
+                    <div class="investment-container">
+                        <canvas id="hitiChart" height="75"></canvas>
+                    </div>
+                </p>
+            </div>
+        </li>
+    </ul>
+
+    <hr />
+
     <footer>
         <p>&copy; 2024 Britton Fischer. All rights reserved.</p>
         <ul class="social-links">
@@ -109,6 +133,8 @@
             <li><a href="https://github.com/nottirb" target="_blank">GitHub</a></li>
         </ul>
     </footer>
+
+    <script src="src/script.js"></script>
 </body>
 
 </html>
