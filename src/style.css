@@ -190,6 +190,10 @@ footer {
   margin-top: 0.5rem;
 }
 
+#livePlayerCount {
+  color: var(--gain-color);
+}
+
 #overallEarnings.gain {
   color: var(--gain-color);
 }
