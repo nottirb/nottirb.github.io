@@ -1,0 +1,32 @@
+name: Update Stock Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight
+  workflow_dispatch:
+    inputs:
+      symbol:
+        description: 'Stock symbol'
+        required: true
+        default: 'HITI'
+
+jobs:
+  update-stock-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Fetch stock data
+      run: |
+        symbol=${{ github.event.inputs.symbol || 'HITI' }}
+        curl "https://api.twelvedata.com/time_series?apikey=${{ secrets.TWELVEDATA_API_KEY }}&interval=1day&symbol=$symbol&exchange=NASDAQ&format=JSON&outputsize=365" -o stock-data.json
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "Stock Data Action"
+        git add stock-data.json
+        git commit -m "Update stock data" || echo "No changes to commit"
+        git push
